@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <div style={{height: "80px", backgroundColor: "black", display: "flex", flexDirection: "vertical", justifyContent: "space-between"}}>
+      <div style={{height: "80px", backgroundColor: "black", display: "flex", flexDirection: "vertical", justifyContent: "space-between", position: "sticky", top: "0", left: "0"}}>
         <Link to="/" style={{color:"white", textDecoration:"none", fontSize:"24px", padding: "20px", alignSelf: "center", fontWeight: "bold"}}>Monkey Assistant 0.1-beta</Link>
         <div style= {{display: "flex", flexDirection: "vertical", justifyContent: "space-between", alignItems: "center"}}>
             <div style={{padding: "20px"}}><Link to="/blogs" style={{color:"white", textDecoration:"none"}}>Blogs</Link></div>

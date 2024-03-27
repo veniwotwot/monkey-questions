@@ -7,7 +7,7 @@ const Layout = () => {
         <Link to="/" style={{color:"white", textDecoration:"none", fontSize:"24px", padding: "20px", alignSelf: "center", fontWeight: "bold"}}>Monkey Assistant 0.1-beta</Link>
         <div style= {{display: "flex", flexDirection: "vertical", justifyContent: "space-between", alignItems: "center"}}>
             <div style={{padding: "20px"}}><Link to="/garagedoor" style={{color:"white", textDecoration:"none"}}>Garage Door</Link></div>
-            <div style={{padding: "20px"}}><Link to="/contact" style={{color:"white", textDecoration:"none"}}>Contact</Link></div>
+            <div style={{padding: "20px"}}><Link to="/tictactoe" style={{color:"white", textDecoration:"none"}}>Tic Tac Toe</Link></div>
         </div>
       </div>
       <Outlet />
